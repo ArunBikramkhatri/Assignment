@@ -1,5 +1,3 @@
-package com.example.demo.utils;
-
 import java.util.UUID;
 
 public class Customer {
@@ -77,4 +75,11 @@ public class Customer {
     public void setJoinedDate(String joinedDate) {
         this.joinedDate = joinedDate;
     }
+
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return "name : " + name + " \nnew id :" + newCustomerId + "\n old id : " + oldCustomerId;
+    }
+
 }
